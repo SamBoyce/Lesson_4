@@ -59,13 +59,21 @@ p {
     color: red;
 }
 
+#favorite-sites {
+    list-style-type: none;
+    color: none;
+}    
+
+
+
 #aside-content-wrapper {
     font-size: 40px;
     background-color: bisque;
     width:20%;
 }
     
-    
+
+
 footer {
     background-color: blueviolet;
     margin:0;
@@ -75,4 +83,5 @@ footer {
 footer > h1 {
     margin:0;
 }
+
 
