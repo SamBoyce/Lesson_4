@@ -1,7 +1,14 @@
+/*
+COLOR SCHEMES:
+Mid blue- 47A6FC
+Owangeg- FE500D
+yell tan- FEE24D
 
+*/
 body {
-    background-color:white;
+    background-color:none;
     background-image: url("matrix.png");
+    color: FE500D
 }
 
 h1 {
@@ -68,3 +75,4 @@ footer {
 footer > h1 {
     margin:0;
 }
+
