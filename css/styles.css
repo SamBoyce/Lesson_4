@@ -7,15 +7,39 @@ yell tan- FEE24D
 */
 body {
     background-color:none;
-    background-image: url("matrix.png");
-    color: FE500D
+    background-image: url(images/itslit.jpg);
+/*    TRANSITIONS  */
+    background-image: url(images/idubbbzdance.jpg);
+    
+    color: FE500D;
+
+    background-attachment: fixed;
 }
+
+.image-content   {
+    filter: contrast(500%);
+}
+
+
 
 h1 {
     color:blue;
     font-family: cursive;
     font-size: 50px;
 }
+
+/*all buttons*/
+button {
+    background-color: paleturquoise;
+    border-style: solid;
+    border-color: dimgray;
+    color: blueviolet;
+    display: inline-block;
+    margin: 4;
+
+}
+    
+
 
 aside { 
     color:red;
