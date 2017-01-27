@@ -8,24 +8,28 @@ yell tan- FEE24D
 body {
     background-color:none;
     background-image: url(images/itslit.jpg);
-/*    TRANSITIONS  */
-    background-image: url(images/idubbbzdance.jpg);
-    
-    color: FE500D;
+
+    color: FEE24D;
 
     background-attachment: fixed;
 }
 
-.image-content   {
-    filter: contrast(500%);
-}
-
-
 
 h1 {
-    color:blue;
+    color:47A6FC;
     font-family: cursive;
     font-size: 50px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 
+        0 0 6px black,
+        0 0 6px black,
+        0 0 6px black,
+        0 0 6px black,
+        0 0 6px black;
+    margin: 10px;
 }
 
 /*all buttons*/
@@ -42,15 +46,22 @@ button {
 
 
 aside { 
-    color:red;
+    color:black;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 
 #header {
     width:100%;
-    background-color: antiquewhite;
+    background-color: none;
+    text-shadow: 
+         0 0 5px white,
+         0 0 5px white,
+         0 0 5px white,
+         0 0 5px white,
+         0 0 5px white,
+         0 0 5px white;
 }
 
 #header > h1 {
@@ -60,7 +71,13 @@ aside {
 #nav {
     width:100%;
     background-color: aquamarine;
+    min-height: 30px;
+    height: auto;
 }
+
+nav > ul [
+
+]
 
 .menu {
     display:flex;
@@ -75,12 +92,20 @@ aside {
 }
 
 #main-content-wrapper {
-    background-color:cornflowerblue;
+    background-color:none;
     width: 80%;
 }
 
 p {
-    color: red;
+    color: white;
+    text-shadow: 
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black,
+        0 0 3px black;
+    margin: 7px;
 }
 
 
@@ -92,7 +117,16 @@ p {
     width:20%;
 }
     
+#favorite-sites {
+    color: none;
+}
 
+img {
+    height: 200px;
+    width: 200px;
+    background-color: none;
+    
+}
 
 footer {
     background-color: blueviolet;
