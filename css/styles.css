@@ -7,18 +7,33 @@ yell tan- FEE24D
 */
 body {
     background-color:none;
-    background-image: url(images/itslit.jpg);
-
-    color: FEE24D;
-
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    color: none;
     background-attachment: fixed;
+    background-position: center;
 }
 
+
+
+
+
+ul {
+    list-style-type: none;
+}
 
 h1 {
     color:47A6FC;
     font-family: cursive;
     font-size: 50px;
+        background-image: url(images/trees.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    min-width: 200px;
+    min-height: 60px;
+    text-align: center;
+    
 }
 
 h2 {
@@ -34,7 +49,7 @@ h2 {
 
 /*all buttons*/
 button {
-    background-color: paleturquoise;
+    background-color: white;
     border-style: solid;
     border-color: dimgray;
     color: blueviolet;
@@ -42,6 +57,7 @@ button {
     margin: 4;
 
 }
+
     
 
 
@@ -75,9 +91,7 @@ aside {
     height: auto;
 }
 
-nav > ul [
 
-]
 
 .menu {
     display:flex;
@@ -111,17 +125,23 @@ p {
 
 
 
+
+
 #aside-content-wrapper {
-    font-size: 40px;
-    background-color: bisque;
-    width:20%;
+
+}
+
+#latest-work {
+    list-style-type: lower-greek;
 }
     
 #favorite-sites {
     color: none;
+
 }
 
-img {
+
+#favorite-sites > ul > li > img {
     height: 200px;
     width: 200px;
     background-color: none;
