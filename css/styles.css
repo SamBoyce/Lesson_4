@@ -14,8 +14,16 @@ body {
     background-position: center;
 }
 
+.button-wrap {
+    text-align: center;
+    transition: background-color .25s;
+}
 
 
+.image-content > img {
+    max-width: 400px;
+    border-radius: 50%;
+}
 
 
 ul {
@@ -47,18 +55,19 @@ h2 {
     margin: 10px;
 }
 
-/*all buttons*/
-button {
+nav > ul > button {
     background-color: white;
     border-style: solid;
     border-color: dimgray;
     color: blueviolet;
     display: inline-block;
     margin: 4;
-
+    transition: background-color .5s;
 }
 
-    
+nav > ul > button:hover {
+    background-color: blue;
+}    
 
 
 aside { 
@@ -101,8 +110,10 @@ aside {
     margin: 0;
 }
 
-#middle-wrapper {
+#middle-wrapper-width {
     display:flex;
+max-width: 960px;
+    margin: 0 auto;
 }
 
 #main-content-wrapper {
@@ -123,14 +134,6 @@ p {
 }
 
 
-
-
-
-
-#aside-content-wrapper {
-
-}
-
 #latest-work {
     list-style-type: lower-greek;
 }
@@ -140,6 +143,14 @@ p {
 
 }
 
+.side-by-side {
+    display: flex;
+}
+
+
+#favorite-sites > ul {
+    display: flex;
+}
 
 #favorite-sites > ul > li > img {
     height: 200px;
