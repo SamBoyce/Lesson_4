@@ -26,6 +26,8 @@ body {
 }
 
 
+
+
 ul {
     list-style-type: none;
 }
@@ -57,8 +59,6 @@ h2 {
 
 nav > ul > button {
     background-color: white;
-    border-style: solid;
-    border-color: dimgray;
     color: blueviolet;
     display: inline-block;
     margin: 4;
@@ -66,7 +66,7 @@ nav > ul > button {
 }
 
 nav > ul > button:hover {
-    background-color: blue;
+    background-color: lightblue;
 }    
 
 
