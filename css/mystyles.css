@@ -16,23 +16,17 @@ body {
 
 .button-wrap {
     text-align: center;
-<<<<<<< HEAD
     border-bottom: 4px #47A6FC solid;
     border-top:  4px #47A6FC solid;
-=======
->>>>>>> origin/master
 }
 
 .image-content > img {
     max-width: 300px;
     min-height: 200px;
     border-radius: 50%;
-<<<<<<< HEAD
     border-style: solid;
     border-color: skyblue;
-=======
     margin-right: 35;
->>>>>>> origin/master
 }
 
     
@@ -84,24 +78,18 @@ h2 {
 
 nav > ul > button {
     background-color: white;
-<<<<<<< HEAD
     color: blueviolet;
-=======
     border-style: solid;
     border-color: dimgray;
     color: darkcyan;
->>>>>>> origin/master
     display: inline-block;
     margin: 4;
     transition: background-color .5s;
 }
 
 nav > ul > button:hover {
-<<<<<<< HEAD
     background-color: lightblue;
-=======
     background-color: lightgrey;
->>>>>>> origin/master
 }    
 
 
@@ -197,13 +185,10 @@ p {
 }
     
 #latest-work {
-<<<<<<< HEAD
     padding-top: 0px;
     margin-top: 0;
-=======
     list-style-type: lower-greek;
     font-size: 35px;
->>>>>>> origin/master
 }
 
 
@@ -255,15 +240,15 @@ p {
 
 
 footer {
-<<<<<<< HEAD
+
     margin:0;
-=======
     background-color: whitesmoke;
->>>>>>> origin/master
+
     font-size: 50px;
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-    
-<<<<<<< HEAD
+}
+
+
 footer > h1 {
     font-size: 50px;
     color: lightblue;
@@ -283,8 +268,6 @@ footer > h1 {
     margin:0;
     transform: translateY(50%);
     margin: 50;
-=======
->>>>>>> origin/master
 }
 
 
