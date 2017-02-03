@@ -17,6 +17,7 @@ body {
 
 .button-wrap {
     text-align: center;
+    transition: background-color .25s;
 }
 
 
@@ -25,6 +26,9 @@ body {
     min-width: 200px;
     max-height: 500px;
     border-radius: 50%;
+<<<<<<< HEAD:css/mystyles.css
+    border-style: solid;
+    border-color: skyblue;
     margin-right: 35;
     border: 5px lightblue solid;
 }
@@ -39,14 +43,22 @@ body {
 
 
 #skills {
+<<<<<<< HEAD
     text-align: center;
     font-size: 25px; 
+=======
+    text-indent: 50px;
+=======
+>>>>>>> parent of 0f3329e... Dun?:css/styles.css
+>>>>>>> origin/master
 }
 
 #skills span {
     font-size: 15px;
     letter-spacing: 5px;
 }
+
+
 
 
 ul {
@@ -78,9 +90,17 @@ h2 {
 }
 
 nav > ul > button {
+<<<<<<< HEAD
     border: none;
     color: lightcyan;
     font-size: 25px;
+=======
+    background-color: white;
+    color: blueviolet;
+    border-style: solid;
+    border-color: dimgray;
+    color: darkcyan;
+>>>>>>> origin/master
     display: inline-block;
     margin: 4;
     transition: background-color .5s;
@@ -94,7 +114,12 @@ nav > ul {
 
 
 nav > ul > button:hover {
+<<<<<<< HEAD
     background-color: lightslategray;
+=======
+    background-color: lightblue;
+    background-color: lightgrey;
+>>>>>>> origin/master
 }    
 
 
@@ -170,6 +195,7 @@ p {
 
 
 #latest-work {
+<<<<<<< HEAD
     list-style-type: none;
     font-size: 30px;
     text-align: center;
@@ -188,8 +214,31 @@ p {
     left: -.5cm;
     top: .8cm;
     position: relative;
+=======
+<<<<<<< HEAD:css/mystyles.css
+    padding-top: 0px;
+    margin-top: 0;
+>>>>>>> origin/master
     list-style-type: lower-greek;
 
+}
+
+
+#latest-work > li:before {
+    content:"";
+    border-color: transparent blue;
+    border-style: solid;
+    border-width: .25cm 0 .25cm .35cm;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -.5cm;
+    top: .7cm;
+    position: relative;
+    
+=======
+    list-style-type: lower-greek;
+>>>>>>> parent of 0f3329e... Dun?:css/styles.css
 }
     
 #favorite-sites {
@@ -221,8 +270,26 @@ p {
 
 
 footer {
+<<<<<<< HEAD
     font-size: 50px;
     
+=======
+<<<<<<< HEAD:css/mystyles.css
+
+=======
+    background-color: blueviolet;
+>>>>>>> parent of 0f3329e... Dun?:css/styles.css
+    margin:0;
+    background-color: whitesmoke;
+
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+
+
+footer > h1 {
+    margin:0;
+>>>>>>> origin/master
 }
 
 footer h1 {
