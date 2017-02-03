@@ -3,7 +3,7 @@ COLOR SCHEMES:
 Mid blue- 47A6FC
 Owangeg- FE500D
 yell tan- FEE24D
-
+pinko- FFA1FB
 */
 body {
     background-color:none;
@@ -12,6 +12,7 @@ body {
     color: none;
     background-attachment: fixed;
     background-position: center;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 
 .button-wrap {
@@ -21,8 +22,11 @@ body {
 
 .image-content > img {
     max-width: 400px;
+    min-width: 200px;
+    max-height: 500px;
     border-radius: 50%;
     margin-right: 35;
+    border: 5px lightblue solid;
 }
 
     
@@ -35,20 +39,24 @@ body {
 
 
 #skills {
-    text-indent: 50px;
+    text-align: center;
+    font-size: 25px; 
 }
 
+#skills span {
+    font-size: 15px;
+    letter-spacing: 5px;
+}
 
 
 ul {
     list-style-type: none;
 }
 
-h1 {
-    color:47A6FC;
-    font-family: cursive;
+header h1 {
+    color: lightcyan;
     font-size: 50px;
-        background-image: url(images/trees.gif);
+    background-image: url(images/trees.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 600px 400px;
@@ -70,37 +78,50 @@ h2 {
 }
 
 nav > ul > button {
-    background-color: white;
-    border-style: solid;
-    border-color: dimgray;
-    color: darkcyan;
+    border: none;
+    color: lightcyan;
+    font-size: 25px;
     display: inline-block;
     margin: 4;
     transition: background-color .5s;
+    background-color: #FFA1FB;
 }
 
+nav > ul {
+    color: lightcyan;
+    min-height: 40px;
+}
+
+
 nav > ul > button:hover {
-    background-color: lightgrey;
+    background-color: lightslategray;
 }    
 
 
 aside { 
     color:black;
-    font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 20px;
 }
 
 
-#header {
+#aside-right h3 {
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 35px;
+    margin: 0;
+}
+
+
+#header h1 {
     width:100%;
     background-color: none;
     text-shadow: 
-         0 0 5px white,
-         0 0 5px white,
-         0 0 5px white,
-         0 0 5px white,
-         0 0 5px white,
-         0 0 5px white;
+         0 0 6px lightpink,
+         0 0 3px purple,
+         0 0 7px white,
+         0 0 4px pink,
+         0 0 5px lightpink,
+         0 0 5px lightpink;
 }
 
 #header > h1 {
@@ -118,15 +139,15 @@ aside {
 
 .menu {
     display:flex;
-        background-color: #5fd8dc;
-        justify-content: space-around;
+    background-color: #5fd8dc;
+    justify-content: space-around;
     list-style-type: none;
     margin: 0;
 }
 
 #middle-wrapper-width {
     display:flex;
-max-width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -149,13 +170,32 @@ p {
 
 
 #latest-work {
+    list-style-type: none;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+
+#latest-work > li:before {
+    content:"";
+    border-color: transparent blue;
+    border-style: solid;
+    border-width: .25cm 0 .25cm .35cm;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -.5cm;
+    top: .8cm;
+    position: relative;
     list-style-type: lower-greek;
-    font-size: 35px;
+
 }
     
 #favorite-sites {
-    color: none;
-
+    border-bottom: 10px #F864E9 solid;
+    border-top: 5px #F864E9 solid;
+    margin-top: 120;
 }
 
 .side-by-side {
@@ -165,25 +205,28 @@ p {
 
 #favorite-sites > ul {
     display: flex;
+    justify-content: space-around;
+    background-image: url(images/back.jpg);
+    border-bottom: 9px lightblue solid;
+    border-top: 9px lightblue solid;
+    margin: 0;
 }
 
 #favorite-sites > ul > li > img {
     max-height: 250px;
     max-width:  250px;
     background-color: none;
-    padding-left: 200;
-    align-content: center;
-    margin-top: 100;
-    padding-bottom: 100px;
 }
 
 
 
 footer {
-    background-color: whitesmoke;
     font-size: 50px;
-    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
     
+}
+
+footer h1 {
+    text-align: center;
 }
 
 
